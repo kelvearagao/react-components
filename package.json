@@ -1,8 +1,26 @@
 {
   "name": "ka-react-components",
   "private": true,
+  "scripts": {
+    "build:footer": "webpack",
+    "build:esm": "babel packages/Footer/src/index.js -o dist/main.esm.js",
+    "build:cjs": "babel packages/Footer/src/index.js -o dist/main.cjs.js",
+    "build:rollup": "rollup -c"
+  },
   "devDependencies": {
-    "lerna": "^3.22.1"
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.16",
+    "@babel/preset-env": "^7.12.16",
+    "@babel/preset-react": "^7.12.13",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^17.1.0",
+    "@rollup/plugin-node-resolve": "^11.2.0",
+    "@rollup/plugin-replace": "^2.3.4",
+    "babel-loader": "^8.2.2",
+    "lerna": "^3.22.1",
+    "rollup": "^2.39.0",
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0"
   },
   "dependencies": {}
 }

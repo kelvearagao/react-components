@@ -1,5 +1,5 @@
 import React from 'react';
-import Footer from '@react-components/footer';
+import Footer from '@ka-react-components/footer';
 
 export default {
   title: 'Example/Footer',

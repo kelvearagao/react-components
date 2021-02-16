@@ -5,19 +5,27 @@
   "author": "Kelve Aragão <kelvearagao@gmail.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/Footer.js",
+  "main": "dist/main.js",
   "directories": {
-    "lib": "lib",
+    "dist": "dist",
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "dist"
   ],
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build:wp": "webpack --config ../../webpack.config.js",
+    "build": "rollup -c ../../rollup.config.js"
   },
   "gitHead": "2d4f6d766ba71462ae05de0e03f0ca3d1139932a",
   "publishConfig": {
     "access": "public"
+  },
+  "peerDependencies": {
+    "react": "^17.0.1"
+  },
+  "devDependencies": {
+    "react": "^17.0.1"
   }
 }

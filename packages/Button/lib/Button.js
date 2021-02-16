@@ -1,7 +1,5 @@
-'use strict';
+import React from 'react'
 
-module.exports = button;
-
-function button() {
-    // TODO
-}
+export default ({ children }) => (
+    <button>{children}</button>
+)
