@@ -1,7 +1,7 @@
 {
   "name": "examples",
   "private": true,
-  "version": "1.0.1-alpha.3",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -21,8 +21,8 @@
     "babel-loader": "^8.2.2"
   },
   "dependencies": {
-    "@ka-react-components/button": "^1.0.1-q.1",
-    "@ka-react-components/footer": "^1.0.1-alpha.3",
+    "@ka-react-components/button": "^1.0.1",
+    "@ka-react-components/footer": "^1.0.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   }
